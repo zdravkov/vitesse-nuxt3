@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   css: [
     '@progress/kendo-theme-default/dist/all.css',
+    '@unocss/reset/tailwind.css',
   ],
   modules: [
     '@vueuse/nuxt',
@@ -12,9 +13,6 @@ export default defineNuxtConfig({
     reactivityTransform: true,
     inlineSSRStyles: false,
   },
-  css: [
-    '@unocss/reset/tailwind.css',
-  ],
   colorMode: {
     classSuffix: '',
   },
